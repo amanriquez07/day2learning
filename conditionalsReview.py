@@ -2,29 +2,39 @@
 # Ask the user to input a score. Assume the score is out of 100.
 
 
-# functions ahelp to wrap up code and define
-#functions are defined with the 
-def scoreMe():
-    score = int(input("Enter your score: "))
-    print("You entered ", score)
-    # Implement the logic to determine the grade based on the score:
-    # A score of 90 and above is an "A".
-    if score >=90:
-        print("A")
-    # A score of 80 to 89 is a "B".
-    elif score >=80 and score < 90:
-        print("B")
-    # A score of 70 to 79 is a "C".
-    elif score >=70 and score < 80:
-        print("C")
-    # A score of 60 to 69 is a "D".
-    elif score >=60 and score < 70:
-        print("D")
-    # A score below 60 is an "F".
-    else:
-        print("F")
-    # Ensure the score entered is within the valid range (0-100). If not, print an error message.
-#call the function
-scoreMe()
-scoreMe()
-scoreMe()
+# # functions ahelp to wrap up code and define
+# #functions are defined with the 
+# def scoreMe():
+#     score = int(input("Enter your score: "))
+#     print("You entered ", score)
+#     # Implement the logic to determine the grade based on the score:
+#     # A score of 90 and above is an "A".
+#     if score >=90:
+#         print("A")
+#     # A score of 80 to 89 is a "B".
+#     elif score >=80 and score < 90:
+#         print("B")
+#     # A score of 70 to 79 is a "C".
+#     elif score >=70 and score < 80:
+#         print("C")
+#     # A score of 60 to 69 is a "D".
+#     elif score >=60 and score < 70:
+#         print("D")
+#     # A score below 60 is an "F".
+#     else:
+#         print("F")
+#     # Ensure the score entered is within the valid range (0-100). If not, print an error message.
+# #call the function
+# scoreMe()
+# scoreMe()
+# scoreMe()
+
+#task: initial/final heights
+initialheight = int(input("What is the initial height of the plant in cm? "))
+week = int(input("What is the height of the plant after one week?"))
+
+#task: Calculate Growth
+growth = (week) - (initialheight)
+print(initialheight)
+print(week)
+print(growth)
